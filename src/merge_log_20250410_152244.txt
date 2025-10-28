@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\tttsai\PycharmProjects\辦公\src\結合檔案.py", line 363, in <module>
+    app = FileMerger()
+          ^^^^^^^^^^^^
+  File "C:\Users\tttsai\PycharmProjects\辦公\src\結合檔案.py", line 26, in __init__
+    self.create_widgets()
+  File "C:\Users\tttsai\PycharmProjects\辦公\src\結合檔案.py", line 95, in create_widgets
+    command=self.select_file1,
+            ^^^^^^^^^^^^^^^^^
+AttributeError: 'FileMerger' object has no attribute 'select_file1'

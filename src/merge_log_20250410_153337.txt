@@ -1,0 +1,40 @@
+[2025-04-10 15:33:51] 已選擇第一個檔案：C:/Users/tttsai/Desktop/小額_彰化/資料匯出-20250409205907-受款人檔_分析結果.xlsx
+[2025-04-10 15:33:55] 已選擇第二個檔案：C:/Users/tttsai/Desktop/小額_彰化/資料匯出-20250410112943-支出傳票.xlsx
+[2025-04-10 15:33:58] 第一個檔案欄位：['主管機關代碼', '機關代碼', '機關編碼', '機關名稱', '會計年度', '送審月', '會計分類', '傳票編號', '傳票日期', '序號', '營利事業統一編號', '受款人名稱', '帳號', '金融機構編號', '金融機構名稱', '支付金額', '(國庫)支票號碼', '單據類別', '地址', '戶名', '送審年']
+[2025-04-10 15:33:58] 第一個檔案資料筆數：16961
+[2025-04-10 15:34:15] 第二個檔案欄位：['主管機關代碼', '機關代碼', '機關編碼', '機關名稱', '會計年度', '送審月', '原屬年度', '預算來源', '會計分類', '門別', '預算科目', '預算科目名稱', '用途別科目代碼', '用途別一級', '用途別二級', '用途別三級', '傳票日期', '傳票類型', '傳票編號', '支出用途', '金額', '借貸', '送審年 ']
+[2025-04-10 15:34:15] 第二個檔案資料筆數：147937
+[2025-04-10 15:34:15] 處理傳票編號格式...
+[2025-04-10 15:34:15] 傳票編號處理範例：
+[2025-04-10 15:34:16] 第一個檔案：
+             傳票編號        傳票編號_比對用
+0  10011136200090  10011136200090
+1  10011136200110  10011136200110
+2  10011136202291  10011136202291
+3  10011136204229  10011136204229
+4  10011136204893  10011136204893
+[2025-04-10 15:34:16] 第二個檔案：
+             傳票編號        傳票編號_比對用
+0  10011136200001  10011136200001
+1  10011136200001  10011136200001
+2  10011136200002  10011136200002
+3  10011136200002  10011136200002
+4  10011136200003  10011136200003
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\tttsai\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1968, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tttsai\PycharmProjects\辦公\src\結合檔案.py", line 406, in merge_files
+    if messagebox.askyesno("確認", "是否要開啟檔案所在資料夾？"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tttsai\AppData\Local\Programs\Python\Python312\Lib\tkinter\messagebox.py", line 114, in askyesno
+    s = _show(title, message, QUESTION, YESNO, **options)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tttsai\AppData\Local\Programs\Python\Python312\Lib\tkinter\messagebox.py", line 76, in _show
+    res = Message(**options).show()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tttsai\AppData\Local\Programs\Python\Python312\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
